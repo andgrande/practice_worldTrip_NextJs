@@ -1,0 +1,76 @@
+{
+  "continents": [
+    { "id": 1, "title": "Europe", "description": "The oldest continent.", "imageURL": "/assets/continents/europe.png" },
+    { "id": 2, "title": "Asia", "description": "The oldest continent.", "imageURL": "/assets/continents/asia.jpg" },
+    { "id": 3, "title": "Oceania", "description": "The oldest continent.", "imageURL": "/assets/continents/oceania.jpg" },
+    { "id": 4, "title": "Africa", "description": "The oldest continent.", "imageURL": "/assets/continents/africa.jpg" },
+    { "id": 5, "title": "South America", "description": "The oldest continent.", "imageURL": "/assets/continents/southAmerica.jpg" },
+    { "id": 6, "title": "North America", "description": "The oldest continent.", "imageURL": "/assets/continents/northAmerica.jpg" }
+  ],
+  "continentPopularCities": [
+    { "id": 1, "continentName": "Europe", "slug": "europe", "imageURL": "/assets/continents/europeCover.png", "cities": [
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "Paris", "cityCountry": "Paris", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "Rome", "cityCountry": "Italy", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "Berlin", "cityCountry": "Germany", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"}
+    ]},
+    { "id": 2, "continentName": "Asia", "slug": "asia", "imageURL": "/assets/continents/asia.jpg", "cities": [
+      {"cityId": 1, "cityName": "Tokyo", "cityCountry": "Japan", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "Pequim", "cityCountry": "China", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"}
+    ]},
+    { "id": 3, "continentName": "Oceania", "slug": "oceania", "imageURL": "/assets/continents/oceania.jpg", "cities": [
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "Paris", "cityCountry": "Paris", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "Rome", "cityCountry": "Italy", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "Berlin", "cityCountry": "Germany", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"}
+    ]},
+    { "id": 4, "continentName": "Africa", "slug": "africa", "imageURL": "/assets/continents/africa.jpg", "cities": [
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "Paris", "cityCountry": "Paris", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "Rome", "cityCountry": "Italy", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "Berlin", "cityCountry": "Germany", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"}
+    ]},
+    { "id": 5, "continentName": "South America", "slug": "south_america",  "imageURL": "/assets/continents/southAmerica.jpg", "cities": [
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "Paris", "cityCountry": "Paris", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "Rome", "cityCountry": "Italy", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "Berlin", "cityCountry": "Germany", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"}
+    ]},
+    { "id": 6, "continentName": "North America", "slug": "north_america",  "imageURL": "/assets/continents/northAmerica.jpg", "cities": [
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "Paris", "cityCountry": "Paris", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "Rome", "cityCountry": "Italy", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "Berlin", "cityCountry": "Germany", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"}
+    ]}
+  ]
+}
