@@ -1,34 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h3 align="center">
+ Desafio de criação de uma interface do zero com Chakra UI no NextJS realizado durante o bootcamp da <a href="https://github.com/rocketseat-education">Rocketseat</a>
+</h3>
 
-## Getting Started
 
-First, run the development server:
+## Sobre o desafio
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Essa será uma aplicação onde você tem dois objetivos principais. O primeiro é desenvolver toda a interface usando como base o Chakra UI. O outro é que você deve trabalhar o responsivo da aplicação (e é aqui que sua criatividade pode brilhar ainda mais).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Você vai iniciar uma aplicação Next.js do zero na sua própria máquina e implementar a interface conforme o layout do Figma.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Acessando o layout do app
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Para ter acesso e duplicar os layouts, basta você clicar no link abaixo. Ele adicionará o Layout à sua dashboard do Figma automaticamente, como uma cópia.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+[Desafio 1 Módulo 4 ReactJS](https://www.figma.com/file/8QAkMs3BddatXn2fFseyu4/Desafio-1-M%C3%B3dulo-4-ReactJS/duplicate)
 
-## Learn More
+## Páginas da aplicação
 
-To learn more about Next.js, take a look at the following resources:
+Temos duas páginas para cada versão da aplicação: **Home** e **Continent**.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Home
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Nessa página você tem um Header, um Banner, uma seção mostrando os tipos de viagem e por fim um CTA (call to action) pedindo para você selecionar um dos continentes.
 
-## Deploy on Vercel
+Como há diferentes formas de classificar e dividir o mundo em continentes, sugerimos utilizar:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- América do Norte;
+- América do Sul;
+- Ásia;
+- África;
+- Europa;
+- Oceania.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Continente
+
+Nessa página você tem um Header, um Banner, uma seção mostrando informações do continente e por fim uma seção mostrando as cidades +100.
+
+As cidades +100 são as cidades que aquele continente possui que estão entre as 100 cidades mais visitadas do mundo. Você pode popular esse campo com dados fictícios, mas caso queira ser o mais realista possível sugerimos se basear nesses dois sites.
+
+[Infographic: The 100 Most Popular City Destinations](https://www.visualcapitalist.com/the-100-most-popular-city-destinations/)
+
+[The 50 Most Visited Cities in the World in 2019 - Big 7 Travel](https://bigseventravel.com/the-most-visited-cities-world-2019/)
+
+---
+
+Feito com 💜 por Rocketseat 👋 Participe da nossa [comunidade aberta!](https://discord.gg/pUU3CG4Z)
