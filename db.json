@@ -8,69 +8,81 @@
     { "id": 6, "title": "North America", "description": "The oldest continent.", "imageURL": "/assets/continents/northAmerica.jpg" }
   ],
   "continentPopularCities": [
-    { "id": 1, "continentName": "Europe", "slug": "europe", "imageURL": "/assets/continents/europeCover.png", "cities": [
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "Paris", "cityCountry": "Paris", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "Rome", "cityCountry": "Italy", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "Berlin", "cityCountry": "Germany", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"}
+    { "id": 1, "continentName": "Europe", "slug": "europe", "imageURL": "/assets/continents/europeCover.png", 
+      "story": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+      "cities": [
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "Paris", "cityCountry": "Paris", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "Rome", "cityCountry": "Italy", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "Berlin", "cityCountry": "Germany", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"}
     ]},
-    { "id": 2, "continentName": "Asia", "slug": "asia", "imageURL": "/assets/continents/asia.jpg", "cities": [
-      {"cityId": 1, "cityName": "Tokyo", "cityCountry": "Japan", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "Pequim", "cityCountry": "China", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"}
+    { "id": 2, "continentName": "Asia", "slug": "asia", "imageURL": "/assets/continents/asia.jpg", 
+      "story": "A Ásia é o maior dos continentes, tanto em área como em população. Abrange um terço das partes sólidas da superfície da Terra e é responsável por abrigar quase três quintos da população mundial.",
+      "cities": [
+        {"cityId": 1, "cityName": "Tokyo", "cityCountry": "Japan", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "Pequim", "cityCountry": "China", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"}
     ]},
-    { "id": 3, "continentName": "Oceania", "slug": "oceania", "imageURL": "/assets/continents/oceania.jpg", "cities": [
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "Paris", "cityCountry": "Paris", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "Rome", "cityCountry": "Italy", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "Berlin", "cityCountry": "Germany", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"}
+    { "id": 3, "continentName": "Oceania", "slug": "oceania", "imageURL": "/assets/continents/oceania.jpg", 
+      "story": "Oceânia é uma região geográfica composta por vários grupos de ilhas do oceano Pacífico. O termo Oceania foi criado em 1831 pelo explorador francês Dumont d'Urville. O termo é usado hoje em vários idiomas para designar uma região geográfica e política que compreende o continente da Austrália e ilhas do Oceano Pacífico adjacentes.",
+      "cities": [
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "Paris", "cityCountry": "Paris", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "Rome", "cityCountry": "Italy", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "Berlin", "cityCountry": "Germany", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"}
     ]},
-    { "id": 4, "continentName": "Africa", "slug": "africa", "imageURL": "/assets/continents/africa.jpg", "cities": [
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "Paris", "cityCountry": "Paris", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "Rome", "cityCountry": "Italy", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "Berlin", "cityCountry": "Germany", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"}
+    { "id": 4, "continentName": "Africa", "slug": "africa", "imageURL": "/assets/continents/africa.jpg", 
+      "story": "A África é o terceiro continente mais extenso (depois da Ásia e da América) com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3% da área total da terra firme do planeta. É o segundo continente mais populoso da Terra (atrás da Ásia) com cerca de um bilhão de pessoas.",
+      "cities": [
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "Paris", "cityCountry": "Paris", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "Rome", "cityCountry": "Italy", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "Berlin", "cityCountry": "Germany", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"}
     ]},
-    { "id": 5, "continentName": "South America", "slug": "south_america",  "imageURL": "/assets/continents/southAmerica.jpg", "cities": [
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "Paris", "cityCountry": "Paris", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "Rome", "cityCountry": "Italy", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "Berlin", "cityCountry": "Germany", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"}
+    { "id": 5, "continentName": "South America", "slug": "south_america",  "imageURL": "/assets/continents/southAmerica.jpg", 
+      "story": "A América do Sul é um continente que compreende a porção meridional da América. Também é considerada um subcontinente do continente americano. A sua extensão é de 17 819 100 km², abrangendo 12% da superfície terrestre e 6% da população mundial.",
+      "cities": [
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "Paris", "cityCountry": "Paris", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "Rome", "cityCountry": "Italy", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "Berlin", "cityCountry": "Germany", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"}
     ]},
-    { "id": 6, "continentName": "North America", "slug": "north_america",  "imageURL": "/assets/continents/northAmerica.jpg", "cities": [
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "Paris", "cityCountry": "Paris", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "Rome", "cityCountry": "Italy", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "Berlin", "cityCountry": "Germany", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
-      {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"}
+    { "id": 6, "continentName": "North America", "slug": "north_america",  "imageURL": "/assets/continents/northAmerica.jpg", 
+      "story": "A América do Norte é um subcontinente que compreende a porção setentrional do continente americano. Existem duas formas de classificar esse continente: a primeira considera que a América do Norte é apenas a parte mais setentrional da América, separada da América Central na fronteira entre o México e a Guatemala, a segunda classificação reconhece apenas uma América do Norte e uma América do Sul, traçando o limite no Istmo do Panamá",
+      "cities": [
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "Paris", "cityCountry": "Paris", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "Rome", "cityCountry": "Italy", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "Berlin", "cityCountry": "Germany", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"},
+        {"cityId": 1, "cityName": "London", "cityCountry": "England", "cityFlag": "/assets/continents/oceania.jpg"}
     ]}
   ]
 }

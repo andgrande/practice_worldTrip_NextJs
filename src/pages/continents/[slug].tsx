@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import { GetStaticPaths, GetStaticProps } from 'next';
 import { Header } from '../../components/Header';
-import { Box, Flex, Text } from '@chakra-ui/layout';
+import ContinentsStats from '../../components/ContinentsStats';
+import { Box, Flex, SimpleGrid, Text } from '@chakra-ui/layout';
 import { Img } from '@chakra-ui/image';
 
 interface ContinentDataProps {
@@ -9,6 +10,7 @@ interface ContinentDataProps {
     continentName: string;
     imageURL: string;
     slug: string;
+    story: string;
     cities: {
         cityId: number;
         cityName: string;
@@ -51,6 +53,40 @@ export default function Continents({ continentData }: ContinentData) {
                     mt={{base: "-100px", sm: "-150px", lg: "-100px"}}
                     ml={{base: "40%", lg: "140px"}}
                 >{continentData[0].continentName}</Text>
+
+                <Flex 
+                    mt={{ base: "100px", sm: "150px", lg: "100px" }}
+                    mx="140px"
+                >
+                    <SimpleGrid
+                        columns={2}
+                        spacingX={70}
+                        spacingY={4}
+                        minChildWidth="300px"
+                    >
+                        <Box>
+                            <Text
+                                fontSize={{ base: "14px", lg: "24px" }}
+                                fontWeight="400"
+                                lineHeight={{ base: "21px", lg: "36px" }}
+                                color="gray.800"
+                                textAlign="justify"
+                            >{continentData[0].story}</Text>
+                        </Box>
+
+                        <Flex
+                            direction="row"
+                            justifyContent="space-between"
+                            alignItems="center"
+                        >
+
+                            <ContinentsStats statsAmount={20} statsTitle="países" />
+                            <ContinentsStats statsAmount={40} statsTitle="línguas" />
+                            <ContinentsStats statsAmount={80} statsTitle="cidades +100" hasInfo={true}/>
+
+                        </Flex>
+                    </SimpleGrid>
+                </Flex>
             </Flex>
         </>
     )
