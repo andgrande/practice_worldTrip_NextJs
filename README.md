@@ -68,10 +68,12 @@ As cidades +100 são as cidades que aquele continente possui que estão entre as
 
 #### @Mobile
 
+##### iPhone
 ![iPhoneX](appImages/iPhoneX_Continent.png)
 
 ![iPhoneX](appImages/IphoneX_landscape.png)
 
+##### iPad
 ![iPad](appImages/iPad.png)
 
 ---
