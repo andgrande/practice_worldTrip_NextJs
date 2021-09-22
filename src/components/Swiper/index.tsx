@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import "swiper/css";
 import "swiper/css/pagination"
 import "swiper/css/navigation"
-import { Flex, Text } from '@chakra-ui/layout';
+import { Flex, Link as ChakraLink, Text } from '@chakra-ui/react';
 import { useEffect, useState } from 'react';
 
 SwiperCore.use([Autoplay,Pagination,Navigation]);
@@ -33,6 +33,10 @@ export function ContinentsSwiper() {
         .catch(() => console.log('failed to fetch'))
     }, []);
 
+    function handleSelectContinent() {
+
+    }
+
     return (
             <Swiper 
                 spaceBetween={2} 
@@ -45,33 +49,37 @@ export function ContinentsSwiper() {
             >
                 {continents.map(continent => (
                     <SwiperSlide key={continent.id}>
-                        <Flex
-                            w={{ base: '100%', md: 1240}}
-                            h={{ base: "250px", md: "450px" }}
-                            justifyContent="center"
-                            alignItems="center"
-                            backgroundImage={continent.imageURL}
-                            backgroundSize="cover"
-                            direction="column"
+                        <ChakraLink
+                            href={`http://localhost:3000/continents/${(continent.title.toLowerCase())}`}
                         >
-                            <Text
-                                color="gray.50"
-                                fontSize={{ base: "24px", md: "48px" }}
-                                fontWeight="700"
-                                // lineHeight="13,5"
+                            <Flex
+                                w={{ base: '100vw', mdm: 1240}}
+                                // w={1240}
+                                h={{ base: '100vh', sm: "450px" }}
+                                justifyContent="center"
+                                alignItems="center"
+                                backgroundImage={continent.imageURL}
+                                backgroundSize="cover"
+                                direction="column"
                             >
-                                {continent.title}
-                            </Text>
+                                <Text
+                                    color="gray.50"
+                                    fontSize={{ base: "24px", md: "48px" }}
+                                    fontWeight="700"
+                                    // lineHeight="13,5"
+                                >
+                                    {continent.title}
+                                </Text>
 
-                            <Text 
-                                color="gray.50"
-                                fontSize={{ base: "14px", md: "24px" }}
-                                fontWeight="700"
-                                // lineHeight="13,5"
-                            >{continent.description}</Text>                                
-                        </Flex>
+                                <Text 
+                                    color="gray.50"
+                                    fontSize={{ base: "14px", md: "24px" }}
+                                    fontWeight="700"
+                                    // lineHeight="13,5"
+                                >{continent.description}</Text>                                
+                            </Flex>
+                        </ChakraLink>
                     </SwiperSlide>
-
                 ))}
         </Swiper>
     )

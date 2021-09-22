@@ -1,19 +1,23 @@
 import Head from 'next/head'
 import { GetStaticPaths, GetStaticProps } from 'next';
 import { Header } from '../../components/Header';
-import { Box, Flex, Text } from '@chakra-ui/layout';
+import ContinentsStats from '../../components/ContinentsStats';
+import { Box, Flex, SimpleGrid, Stack, Text } from '@chakra-ui/react';
 import { Img } from '@chakra-ui/image';
+import PopularCities from '../../components/PopularCities';
 
 interface ContinentDataProps {
     id: number;
     continentName: string;
     imageURL: string;
     slug: string;
+    story: string;
     cities: {
         cityId: number;
         cityName: string;
         cityCountry: string;
         cityFlag: string;
+        cityImg: string;
     }[];
 }
 
@@ -22,6 +26,7 @@ interface ContinentData {
 }
 
 export default function Continents({ continentData }: ContinentData) {
+    const inPlusHundredCities = continentData[0].cities.length;
 
     return (
         <>
@@ -39,7 +44,7 @@ export default function Continents({ continentData }: ContinentData) {
                     align="center"
                     justify="center"
                 >
-                    <Img src={continentData[0].imageURL} alt={continentData[0].continentName} fit />
+                    <Img src={continentData[0].imageURL} alt={continentData[0].continentName} boxSize="100%" />
                     
                 </Flex>
                 <Text
@@ -51,6 +56,60 @@ export default function Continents({ continentData }: ContinentData) {
                     mt={{base: "-100px", sm: "-150px", lg: "-100px"}}
                     ml={{base: "40%", lg: "140px"}}
                 >{continentData[0].continentName}</Text>
+
+                <Flex 
+                    mt={{ base: "100px", sm: "150px", lg: "100px" }}
+                    mx="140px"
+                >
+                    <SimpleGrid
+                        columns={2}
+                        spacingX={70}
+                        spacingY={4}
+                        minChildWidth="300px"
+                    >
+                        <Box>
+                            <Text
+                                fontSize={{ base: "14px", lg: "24px" }}
+                                fontWeight="400"
+                                lineHeight={{ base: "21px", lg: "36px" }}
+                                color="gray.800"
+                                textAlign="justify"
+                            >{continentData[0].story}</Text>
+                        </Box>
+
+                        <Flex
+                            direction="row"
+                            justifyContent="space-between"
+                            alignItems="center"
+                        >
+
+                            <ContinentsStats statsAmount={20} statsTitle="países" />
+                            <ContinentsStats statsAmount={40} statsTitle="línguas" />
+                            <ContinentsStats statsAmount={inPlusHundredCities} statsTitle="cidades +100" hasInfo={true}/>
+
+                        </Flex>
+                    </SimpleGrid>
+                </Flex>
+
+                <Flex 
+                    my={{ base: "32px", md: "80px" }}
+                    direction="column" 
+                    mx="140px"
+                    // px={{md: "140px"}}
+                    w="80%"
+                    justifyContent="center"
+                    justify="center"
+                >
+                    <Text 
+                        as="p"
+                        color="gray.800"
+                        fontWeight="500"
+                        fontSize={{ base: "28px", md: "36px" }}
+                        mb={{ base: "20px", md: "40px" }}
+                    >Cidades +100</Text>
+
+                    <PopularCities cities={continentData[0].cities}/>
+                </Flex>
             </Flex>
         </>
     )
@@ -59,9 +118,9 @@ export default function Continents({ continentData }: ContinentData) {
 export const getStaticPaths: GetStaticPaths = () => {
     return {
         paths: [
-            { params: { slug: 'europe'} }
+            // { params: { slug:  } }
         ],
-        fallback: true,
+        fallback: 'blocking',
     }
 }
 
@@ -77,6 +136,8 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     } catch (error) {
         console.log('Failure to retrieve data')
     }
+
+    // console.log(JSON.stringify(continentData, null, 2))
     
     return {
         props: {
