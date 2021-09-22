@@ -70,7 +70,7 @@ As cidades +100 são as cidades que aquele continente possui que estão entre as
 
 ![iPhoneX](appImages/iPhoneX_Continent.png)
 
-![iPhoneX](appImages/iPhoneX_landscape.png)
+![iPhoneX](appImages/IphoneX_landscape.png)
 
 ![iPad](appImages/iPad.png)
 
