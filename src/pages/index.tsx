@@ -15,7 +15,7 @@ export default function Home() {
         <title>Home | WorldTrip</title>
       </Head>
 
-      <Flex flexDirection="column" h="100vh" w="100" align="center" >
+      <Flex flexDirection="column" h="100vh" w="100" align="center" mb={80}>
         <Header />
 
         <Flex
@@ -61,9 +61,9 @@ export default function Home() {
               <Img
                 src='/assets/Airplane.png'
                 alt="Airplane"
-                w={{ md: 347, lg: 417 }}
-                h={{ md: 225, lg: 270 }}
-                mt="109"
+                w={{ md: 340, lg: 417 }}
+                h={{ md: 220, lg: 270 }}
+                mt={{ md: "150", lg: "109"}}
                 mr="140"
                 ml={{ md: "100", lg: "205", xl: "410" }}
               />
@@ -72,7 +72,16 @@ export default function Home() {
           </Flex>
         </Flex>
 
-        <AttractionsBanner />
+        <Flex 
+          my={{ base: "32px", md: "80px" }}
+          direction="column" 
+          mx="140px"
+          px={{md: "140px"}}
+          w="100%"
+          justifyContent="center"
+      >
+          <AttractionsBanner />
+        </Flex>
 
         <hr
           style={{ width: '90px', border: '1px solid #47585B', marginTop: '80px' }}

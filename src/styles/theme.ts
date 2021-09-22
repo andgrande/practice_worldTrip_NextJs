@@ -31,6 +31,7 @@ const colors = {
 const breakpoints = createBreakpoints({
   sm: "768px",
   md: "1000px",
+  mdm: "1240px",
   lg: "1440px",
   xl: "1920px",
 })

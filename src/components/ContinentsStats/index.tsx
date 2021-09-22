@@ -25,7 +25,11 @@ export default function ContinentsStats({ statsAmount, statsTitle, hasInfo = fal
                 color="gray.700"
             >
                 {statsTitle} {hasInfo && (
-                    <Tooltip label="Best cities" bg="gray.200" placement="top-end" shouldWrapChildren>
+                    <Tooltip 
+                        label="As cidades +100 são as cidades que o continente possui que estão entre as 100 cidades mais visitadas do mundo." 
+                        bg="gray.300" 
+                        placement="top-end" 
+                        shouldWrapChildren>
                         <Icon as={RiInformationLine} color="gray.500" w="16px" />
                     </Tooltip>
                 )}

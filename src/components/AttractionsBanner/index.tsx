@@ -3,19 +3,18 @@ import { Box, Img, SimpleGrid, Text } from '@chakra-ui/react';
 export default function AttractionsBanner() {
     return (
         <SimpleGrid
-          flex="1"
-          maxWidth={1440}
-          gap="100px" 
-          minChildWidth="100px"
+          columns={5}
+          minChildWidth="150px"
           align="center"
-          // spacing="100px"
+          spacing={50}
         >
           {/* Iterate from API */}
           <Box 
             mx="auto" 
             // px={["4", "8"]}
             h={145}
-            mt={113}
+            mt={{ sm: "50px" }}
+            w="150px"
           >
             <Img
               src="/assets/attractions/cocktail.png"
@@ -35,7 +34,8 @@ export default function AttractionsBanner() {
             mx="auto" 
             // px={["4", "8"]}
             h={145}
-            mt={113}
+            mt={{ sm: "50px" }}
+            w="150px"
           >
             <Img
               src="/assets/attractions/surf.png"
@@ -55,7 +55,8 @@ export default function AttractionsBanner() {
             mx="auto" 
             // px={["4", "8"]}
             h={145}
-            mt={113}
+            mt={{ sm: "50px" }}
+            w="150px"
           >
             <Img
               src="/assets/attractions/building.png"
@@ -75,7 +76,8 @@ export default function AttractionsBanner() {
             mx="auto" 
             // px={["4", "8"]}
             h={145}
-            mt={113}
+            mt={{ sm: "50px" }}
+            w="150px"
           >
             <Img
               src="/assets/attractions/museum.png"
@@ -95,7 +97,8 @@ export default function AttractionsBanner() {
             mx="auto" 
             // px={["4", "8"]}
             h={145}
-            mt={113}
+            mt={{ sm: "50px" }}
+            w="150px"
           >
             <Img
               src="/assets/attractions/earth.png"
