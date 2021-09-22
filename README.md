@@ -3,7 +3,7 @@
 </h3>
 
 
-## Sobre o desafio
+# Sobre o desafio
 
 Essa será uma aplicação onde você tem dois objetivos principais. O primeiro é desenvolver toda a interface usando como base o Chakra UI. O outro é que você deve trabalhar o responsivo da aplicação (e é aqui que sua criatividade pode brilhar ainda mais).
 
@@ -41,6 +41,38 @@ As cidades +100 são as cidades que aquele continente possui que estão entre as
 [Infographic: The 100 Most Popular City Destinations](https://www.visualcapitalist.com/the-100-most-popular-city-destinations/)
 
 [The 50 Most Visited Cities in the World in 2019 - Big 7 Travel](https://bigseventravel.com/the-most-visited-cities-world-2019/)
+
+
+# Resultado final
+
+#### @1240px
+##### Home screen
+
+![Home](appImages/Home_top.png)
+
+![Home](appImages/Home_bottom.png)
+
+![Home](appImages/Home_dark_top.png)
+
+![Home](appImages/Home_dark_bottom.png)
+
+##### Continent screen
+
+![Continent](appImages/Continent_top.png)
+
+![Continent](appImages/Continent_bottom.png)
+
+![Continent](appImages/Continent_dark_top.png)
+
+![Continent](appImages/Continent_dark_bottom.png)
+
+#### @Mobile
+
+![iPhoneX](appImages/iPhoneX_Continent.png)
+
+![iPhoneX](appImages/iPhoneX_landscape.png)
+
+![iPad](appImages/iPad.png)
 
 ---
 
